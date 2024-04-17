@@ -20,7 +20,7 @@ or
 yarn add puppeteer-core
 ```
 
-### 3. Set the `TOKEN` variable to your API token from **Step 2** in the `./examples/quick-start.js` script
+### 3. Set the `TOKEN` variable to your API token from **Step 2** in [the example script](./examples/quick-start.js)
 
 ```javascript
 import puppeteer from 'puppeteer-core';

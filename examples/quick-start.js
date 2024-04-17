@@ -4,7 +4,6 @@ const TOKEN = 'your-token';
 
 /**
  * This simple script takes a screenshot of a webpage
- * API params required - just an API token!
  */
 
 (async () => {
