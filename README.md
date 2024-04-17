@@ -57,7 +57,7 @@ Done!
 
 ## API parameters
 
-- `token={TOKEN}` **(required)** - API token from your [Gologin account](app.gologin.com/#/personalArea/TokenApi).
+- `token={TOKEN}` **(required)** - API token from your [Gologin account](https://app.gologin.com/#/personalArea/TokenApi).
 
 - `profile={profile_id}` *(optional)* - ID of a specific profile you want to run. If this parameter is specified, a new profile is not auto generated.
 
