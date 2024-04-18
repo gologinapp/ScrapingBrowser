@@ -30,16 +30,16 @@ const TOKEN = 'your-token'; // 👈 change this
 (async () => {
     const browser = await puppeteer.connect({
         browserWSEndpoint: `https://cloud.gologin.com/connect?token=${TOKEN}`,
-        ignoreHTTPSErrors: true ,
+        ignoreHTTPSErrors: true,
     });
 
     console.info('Browser connected! Scraping...');
 
     const page = await browser.newPage();
     await page.goto('https://iphey.com');
-    await page.screenshot({ path: 'screenshot.jpeg' })
+    await page.screenshot({ path: 'screenshot.jpeg' });
 
-    console.info('Screenshot taken!')
+    console.info('Screenshot taken!');
 })();
 ```
 
