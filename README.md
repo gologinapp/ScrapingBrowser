@@ -19,6 +19,7 @@ or
 ```bash
 yarn add puppeteer-core
 ```
+> `puppeteer-core` is a lightweight version of Puppeteer that doesn't come with a Chromium browser in it (you don't need a local browser in this case).
 
 ### 3. Set the `TOKEN` variable to your API token from **Step 2** in [the example script](./examples/quick-start.js)
 
