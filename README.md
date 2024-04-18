@@ -23,13 +23,13 @@ yarn add puppeteer-core
 ### 3. Set the `TOKEN` variable to your API token from **Step 2** in [the example script](./examples/quick-start.js)
 
 ```javascript
-import puppeteer from 'puppeteer-core';
+const puppeteer = require('puppeteer-core');
 
 const TOKEN = 'your-token'; // 👈 change this
 
 (async () => {
     const browser = await puppeteer.connect({
-        browserWSEndpoint: `https://debug.cloud.gologin.com/connect?token=${TOKEN}`,
+        browserWSEndpoint: `https://cloud.gologin.com/connect?token=${TOKEN}`,
         ignoreHTTPSErrors: true ,
     });
 

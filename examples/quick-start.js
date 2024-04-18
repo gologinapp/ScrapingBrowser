@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer-core';
+const puppeteer = require('puppeteer-core');
 
 const TOKEN = 'your-token';
 
@@ -8,7 +8,7 @@ const TOKEN = 'your-token';
 
 (async () => {
     const browser = await puppeteer.connect({
-        browserWSEndpoint: `https://debug.cloud.gologin.com/connect?token=${TOKEN}`,
+        browserWSEndpoint: `https://cloud.gologin.com/connect?token=${TOKEN}`,
         ignoreHTTPSErrors: true ,
     });
 
