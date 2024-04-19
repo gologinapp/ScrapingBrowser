@@ -1,10 +1,10 @@
 const puppeteer = require('puppeteer-core');
 
-const TOKEN = 'your-token';
-
 /**
  * This simple script takes a screenshot of a webpage
  */
+
+const TOKEN = 'your-token';
 
 (async () => {
     const browser = await puppeteer.connect({

@@ -69,7 +69,7 @@ Done!
 
 ✅ `/connect?token=${TOKEN}` - generate a new profile and run it
 
-✅ `/connect?token=${TOKEN}&geolocation=dataCenter:DE` - generate a new profile with a German geolocation and run it
+✅ `/connect?token=${TOKEN}&geolocation=dataCenter:DE` - generate a new profile with a German geolocation and run it (check [the geolocation script](./examples/geolocation.js))
 
 ❌ `/connect?profile={profile_id}` - oops! You need to set the `token` parameter for authorization
 
