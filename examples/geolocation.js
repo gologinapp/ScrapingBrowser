@@ -9,7 +9,7 @@ const TOKEN = 'your-token';
 const COUNTRY_SELECTOR = '#content-2 > .user-block.user-block-hr > .user-data';
 
 (async () => {
-    const browserWSEndpoint = new URL('https://cloud.gologin.com/connect');
+    const browserWSEndpoint = new URL('https://cloudbrowser.gologin.com/connect');
     browserWSEndpoint.searchParams.append('token', TOKEN);
     browserWSEndpoint.searchParams.append('geolocation', 'dataCenter:DE');
 

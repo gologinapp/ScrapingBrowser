@@ -30,7 +30,7 @@ const TOKEN = 'your-token'; // 👈 change this
 
 (async () => {
     const browser = await puppeteer.connect({
-        browserWSEndpoint: `https://cloud.gologin.com/connect?token=${TOKEN}`,
+        browserWSEndpoint: `https://cloudbrowser.gologin.com/connect?token=${TOKEN}`,
         ignoreHTTPSErrors: true,
     });
 
